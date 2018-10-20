@@ -20,4 +20,5 @@ string='''
                =++%%%%+/:-.
 
 '''
-print(set(string),len(set(string)))
+
+print([ord(str) for str in set(string)],len(set(string)))
